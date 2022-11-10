@@ -1,0 +1,63 @@
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.myphoto {
+  width: 300px;
+  border-radius: 50%;
+  border: 10px outset #c5d0df;
+}
+.abouutme-photo:hover .myphoto {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.aboutme-text-title {
+  width: 400px;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  border-bottom: 5px solid #ccc;
+  padding: 20px 0 20px 0;
+  margin-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+.aboutme-text-info {
+  position: relative;
+  line-height: 2;
+}
+.aboutme-text-info ul li {
+  list-style-type: none;
+  border-radius: 10px;
+}
+.aboutme-connection {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.aboutme-text .slogan {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.aboutme-text:hover .slogan {
+  background-color: #c5d0df;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.aboutme-connection a {
+  padding: 10px;
+  width: 50px;
+  height: 100px;
+}
+.aboutme-connection img {
+  color: #545a5e;
+  width: 35px;
+}
+.aboutme-connection img:hover {
+  transform: scale(1.15);
+  transition: 0.4s;
+}

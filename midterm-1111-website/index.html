@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>midterm-1111-website</title>
+    <link rel="icon" href="image/palette.png" />
+    <link rel="stylesheet" href="css/header-nav.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/aboutme.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/courses.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header-photo">
+        <div class="header-title">My Profile</div>
+      </div>
+    </header>
+
+    <!-- nav -->
+    <nav>
+      <a href="#aboutme">關於我</a>
+      <a href="#skills">專業技能</a>
+      <a href="#experiences">活動經歷</a>
+      <a href="#courses">課程經歷</a>
+    </nav>
+
+    <!-- main -->
+    <main>
+      <article>
+        <!-- 回頂端 -->
+        <section class="totop">
+          <a href="#top" class="totop" id="totop">
+            <button class="totop-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"
+                />
+              </svg>
+            </button>
+          </a>
+        </section>
+
+        <!-- 關於我 -->
+        <section class="aboutme" id="aboutme">
+          <!-- 關於我 左半邊 圖片 -->
+          <div class="abouutme-photo">
+            <img class="myphoto" src="image/myphoto.jpg" />
+          </div>
+          <!-- 關於我 右半邊 文字 聯絡方式  -->
+          <div class="aboutme-text">
+            <!-- 關於我 標題 -->
+            <div class="aboutme-text-title">關於我</div>
+            <!-- 個人介紹 -->
+            <div class="aboutme-text-info">
+              <ul>
+                <li>李欣樺 | XIN-HUA,LI</li>
+                <li>中原大學 資訊管理學系</li>
+                <li>Born in 2002</li>
+                <li>Taoyuan, Taiwan</li>
+              </ul>
+              <!-- 一句話 -->
+              <p class="slogan">
+                "The more you let-go, the more life enriches you."
+              </p>
+            </div>
+            <!-- 聯絡方式 -->
+            <div class="aboutme-connection">
+              <a
+                href="https://www.facebook.com/profile.php?id=100026327163973"
+                target="_blank"
+                ><img src="image/facebook.png"
+              /></a>
+              <a href="https://www.instagram.com/xinhua.8109/" target="_blank"
+                ><img src="image/instagram.png"
+              /></a>
+              <a href="mailto:xli89549@gmail.com" target="_blank"
+                ><img src="image/mail.png"
+              /></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 技能 -->
+        <section class="skills" id="skills">
+          <!-- 專業技能 -->
+          <div class="professional-skills">
+            <div class="professional-skills-title">專業技能</div>
+            <div class="cards">
+              <div class="card">
+                <div
+                  class="circle"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--value: 80"
+                ></div>
+                <div class="text">文書處理</div>
+              </div>
+              <div class="card">
+                <div
+                  class="circle"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--value: 85"
+                ></div>
+                <div class="text">網頁前端開發</div>
+              </div>
+              <div class="card">
+                <div
+                  class="circle"
+                  role="progressbar"
+                  aria-valuenow="78"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--value: 78"
+                ></div>
+                <div class="text">自走車應用</div>
+              </div>
+              <div class="card">
+                <div
+                  class="circle"
+                  role="progressbar"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="--value: 60"
+                ></div>
+                <div class="text">網頁爬蟲&自動化</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 程式技能 -->
+          <div class="programming-skills">
+            <div class="programming-skills-title">程式技能</div>
+
+            <div class="programming-skills-item">
+              <p>Java</p>
+              <div class="bar Java">85%</div>
+            </div>
+            <br />
+
+            <div class="programming-skills-item">
+              <p>Python</p>
+              <div class="bar Python">80%</div>
+            </div>
+            <br />
+
+            <div class="programming-skills-item">
+              <p>HTML/CSS</p>
+              <div class="bar HTML-CSS">80%</div>
+            </div>
+            <br />
+
+            <div class="programming-skills-item">
+              <p>Arduino</p>
+              <div class="bar Arduino">70%</div>
+            </div>
+            <br />
+
+            <div class="programming-skills-item">
+              <p>C++</p>
+              <div class="bar CPP">60%</div>
+            </div>
+            <br />
+          </div>
+        </section>
+
+        <!-- 活動經歷 -->
+        <section class="experiences" id="experiences">
+          <!-- 活動經歷 標題 -->
+          <div class="experiences-title">活動經歷</div>
+          <div class="card-container">
+            <div
+              class="card"
+              style="
+                --image: url('../image/youth-travel-1.jpg');
+                --angle: -5deg;
+                --x: 5%;
+                --y: 15%;
+                --caption: '跟九斗里里長去採蜂蜜';
+              "
+            ></div>
+
+            <div
+              class="card"
+              style="
+                --image: url('../image/youth-travel-4.jpg');
+                --angle: -1deg;
+                --x: -10%;
+                --y: -20%;
+                --caption: '感動地圖成果競賽獲獎';
+              "
+            ></div>
+
+            <div
+              class="card"
+              style="
+                --image: url('../image/youth-travel-2.jpg');
+                --angle: -4deg;
+                --x: -20%;
+                --y: 5%;
+                --caption: '25°02&rsquo;49.0&quot;N&nbsp;&nbsp;&nbsp;121°04&rsquo;28.9&quot;E';
+              "
+            ></div>
+
+            <div
+              class="card"
+              style="
+                --image: url('../image/youth-travel-3.jpg');
+                --angle: 7deg;
+                --x: 10%;
+                --y: -7%;
+                --caption: '在學校辦成果展';
+              "
+            ></div>
+          </div>
+          <div class="text youth-travel">
+            <h2>青年壯遊臺灣-2019尋找感動地圖實踐計畫</h2>
+            <p>
+              從撰寫10天的旅行計畫書到獲得部分補助得以去旅行，再到後來成果競賽、成果展、在全年級集會分享體驗的經歷，為期幾乎一年的時間去籌辦到最後圓滿結束。我們第一次搭便車；在20年來最大暴雨的山路上騎著腳踏車，google
+              map還失靈差點回不了家；跟路人聊天聊了一個下午；去跟里長體驗採蜂蜜，里長還免費給了我們近乎一箱的蜂巢蜜；還有人被陌生的阿伯搭訕問要不要當他的女朋友(我們直接被嚇跑)。好多經歷都是在這場旅行中獲得，我們也學會了好多技能，跟陌生人聊天、訪問路人、主動跟好多人分享我們的故事。在這次的旅行中，我們將旅途中的風景以相機紀錄了下來，並親自用手以海報的方式繪畫出我們10天的旅程，接著向學校提出申請，將我們這段旅程的故事，做成一個小小的成果展，在學校裡展示給同學觀賞，製作了一點小遊戲跟他們互動，也在學校的全年級集會上發表我們的壯遊經歷，更參與了青年發展署舉辦的成果競賽並獲獎。
+            </p>
+            <div class="link">
+              <a
+                href="https://youthtravel.tw/doc.php?puid=10&type=2"
+                target="_blank"
+              >
+                <img src="image/youth-travel-link.png" />
+              </a>
+            </div>
+            <div class="arrow">
+              <img src="image/right-arrow.png" />
+            </div>
+          </div>
+          <div class="text car">
+            <h2>2022虎頭山AI智駕車學生挑戰賽</h2>
+            <p>
+              競賽期望參賽者結合影像及感測之路況探索的分析，開創地設計並製作一台智駕載具。這個智駕載具必須要能夠在無人操控的狀況下，過虛線循跡與隨機秒數紅綠燈，之後以手控的方式控制車體取物、爬斜坡、過石頭路與木條路、最後放下先前取的物品才到終點。在準備與製作的過程中，其實遇到了不少困難，因為以前並沒有接觸過這類型的競賽也沒有學過基礎知識，可以說是從零開始學起。前面花了4天的時間在訓練營上學習基礎Arduino以及基本製作智駕載具需要獲得的知識，之後就是單純靠我們自己去找資料、自學、構思整體外觀與車體零件配置、設計程式架構到debug、用壓克力刀與電鑽親手製作取物機械裝置。在挑選材料的時候也吃了不少的坑，因為還不懂各種硬體零件的功能，花了不少錢買來測試用。在組裝車子的時候，還不小心讓會導電的螺帽同時碰上正極與負極導致短路，整個電線冒火燒起來，非常可怕。但總之，還是做出來我們的車並參與競賽，順利過了初賽進入複賽，雖然最後複賽被刷掉了，但經驗是無價的。
+            </p>
+            <div class="link">
+              <a href="https://youtu.be/eTz4kXIls24" target="_blank">
+                <img src="image/car-link.png" />
+              </a>
+            </div>
+            <div class="arrow">
+              <img src="image/right-arrow.png" />
+            </div>
+          </div>
+          <div class="card-container">
+            <div
+              class="card"
+              style="
+                --image: url('../image/car-4.jpg');
+                --angle: -5deg;
+                --x: 5%;
+                --y: 15%;
+                --caption: '取物裝置設計圖';
+              "
+            ></div>
+
+            <div
+              class="card"
+              style="
+                --image: url('../image/car-3.jpg');
+                --angle: -1deg;
+                --x: -10%;
+                --y: -20%;
+                --caption: '為了測試 自製賽道';
+              "
+            ></div>
+
+            <div
+              class="card"
+              style="
+                --image: url('../image/car-2.jpg');
+                --angle: -4deg;
+                --x: -20%;
+                --y: 5%;
+                --caption: '耶 去比賽了';
+              "
+            ></div>
+
+            <div
+              class="card"
+              style="
+                --image: url('../image/car-1.jpg');
+                --angle: 7deg;
+                --x: 10%;
+                --y: -7%;
+                --caption: '和車子的合照';
+              "
+            ></div>
+          </div>
+        </section>
+
+        <!-- 課程經歷 -->
+        <section class="courses" id="courses">
+          <!-- 課程經歷 標題 -->
+          <div class="courses-title">課程經歷</div>
+          <div class="projcard-container">
+            <div
+              class="projcard projcard-customcolor"
+              style="--projcard-color: #849cbe"
+            >
+              <div class="projcard-innerbox">
+                <img
+                  class="projcard-img"
+                  src="image/enterprise-class-photo.jpg"
+                />
+                <div class="projcard-textbox">
+                  <div class="projcard-title">1101 企業概論 × 路得啟智學園</div>
+                  <div class="projcard-subtitle">
+                    路得始終秉持著專業、尊重，提供身障園生工作訓練及生活照顧。
+                  </div>
+                  <div class="projcard-bar"></div>
+                  <div class="projcard-description">
+                    在這門課上，我們學會如何跟合作單位洽談與溝通，學會怎麼在學校租借場地販售商品，模擬一般公司運營方式，實際走了一遍販售產品的流程，前期準備和後期調整，再到後來我們終於開賣。這段過程是雖然花費我們不少時間，但卻學到很多未來出社會需要的技能。從做中學是這門課最主要的理念，而我們也確實在這一學期，以實踐大於理論的方式，獲得許多可貴的經驗。
+                  </div>
+                  <div class="projcard-tagbox">
+                    <span class="projcard-tag">企業概論</span>
+                    <span class="projcard-tag">公司經營</span>
+                    <span class="projcard-tag">服務學習</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="projcard projcard-customcolor"
+              style="--projcard-color: #849cbe"
+            >
+              <div class="projcard-innerbox">
+                <img
+                  class="projcard-img"
+                  src="image/management-class-photo.jpg"
+                />
+                <div class="projcard-textbox">
+                  <div class="projcard-title">1102 管理學 × 木匠之家</div>
+                  <div class="projcard-subtitle">人休習·物修惜</div>
+                  <div class="projcard-bar"></div>
+                  <div class="projcard-description">
+                    在這門課上，了解了木匠之家的理念與他們怎麼團結一致幫助其他人，讓我在服務學習這方面，有了更全面的認識，也啟發我在未來有持續服務社會的動力。服務當天的工作內容是協助木匠之家清潔布料與搬運布料，雖然說這個工作內容看似對他們的幫助不大，可是其實只要我們投入時間去協助他們往公益方向的路去進行，也可以算是一種幫忙，因此，投入這份心力是值得的。
+                  </div>
+                  <div class="projcard-tagbox">
+                    <span class="projcard-tag">管理學</span>
+                    <span class="projcard-tag">惜物</span>
+                    <span class="projcard-tag">服務學習</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!-- footer -->
+    <footer>&copy; copyright 2022 by xin</footer>
+  </body>
+  <script src="js/top.js"></script>
+  <script src="js/courses.js"></script>
+</html>

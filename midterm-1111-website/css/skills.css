@@ -1,0 +1,198 @@
+.skills {
+  width: 1200px;
+  display: flex;
+  padding: 50px;
+}
+
+/* 專業技能  */
+
+.professional-skills {
+  width: 500px;
+  text-align: center;
+}
+.professional-skills .professional-skills-title {
+  width: 430px;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  border-bottom: 5px solid #ccc;
+  padding: 20px 0 20px 0;
+  margin-bottom: 25px;
+  position: relative;
+  text-align: center;
+}
+.professional-skills .text {
+  font-size: 18px;
+}
+
+@keyframes growProgressBar {
+  0% {
+    --pgPercentage: 0;
+  }
+  50%,
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@property --pgPercentage {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 0;
+}
+
+.circle[role="progressbar"] {
+  --size: 12rem;
+  --fg: #849cbe;
+  --bg: #bdcad5;
+  --pgPercentage: var(--value);
+  animation: growProgressBar 6s infinite;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+      closest-side,
+      white 80%,
+      transparent 0 99.9%,
+      white 0
+    ),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+.circle[role="progressbar"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) "%";
+}
+
+.professional-skills .cards {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.professional-skills .card {
+  margin: 20px;
+}
+.professional-skills .card .text {
+  margin: 10px 20px;
+}
+
+/* 程式技能  */
+
+.programming-skills .programming-skills-title {
+  width: 430px;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  border-bottom: 5px solid #ccc;
+  padding: 20px 0 20px 0;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.programming-skills {
+  width: 500px;
+}
+.programming-skills-item {
+  width: 430px;
+  margin-bottom: 8px;
+}
+.programming-skills-item p {
+  width: 430px;
+  margin-bottom: px;
+  font-size: 18px;
+}
+.programming-skills-item .bar {
+  width: 430px;
+  height: 45px;
+  padding: 10px 0;
+  margin-top: 10px;
+  background-color: #849cbe;
+  color: #fff;
+  text-align: right;
+  border-radius: 15px;
+  width: 5%;
+  margin-left: 0;
+}
+
+.Java {
+  width: 5%;
+  background-color: rgb(167, 168, 200);
+  animation: Java 6s infinite;
+}
+.Python {
+  width: 5%;
+  background-color: rgb(167, 168, 200);
+  animation: Python 6s infinite;
+}
+.HTML-CSS {
+  width: 5%;
+  background-color: rgb(167, 168, 200);
+  animation: HTML-CSS 6s infinite;
+}
+.Arduino {
+  width: 5%;
+  background-color: rgb(167, 168, 200);
+  animation: Arduino 6s infinite;
+}
+.CPP {
+  width: 5%;
+  background-color: rgb(167, 168, 200);
+  animation: CPP 6s infinite;
+}
+
+@keyframes Java {
+  0% {
+    width: 5%;
+  }
+  50%,
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes Python {
+  0% {
+    width: 5%;
+  }
+  50%,
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes HTML-CSS {
+  0% {
+    width: 5%;
+  }
+  50%,
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes Arduino {
+  0% {
+    width: 5%;
+  }
+  50%,
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes CPP {
+  0% {
+    width: 5%;
+  }
+  50%,
+  100% {
+    width: 60%;
+  }
+}
