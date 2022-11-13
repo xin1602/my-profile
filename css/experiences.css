@@ -83,6 +83,10 @@
   text-align: center;
   margin-bottom: 20px;
 }
+.experiences .text p {
+  line-height: 30px;
+  letter-spacing: 0.8px;
+}
 .experiences .text .link {
   width: 480px;
   text-align: right;
@@ -103,7 +107,6 @@
 }
 .experiences .youth-travel:hover .link img {
   transform: scale(1.1);
-  /* background-color: rgb(83, 127, 157); */
   border-radius: 50%;
 }
 .experiences .youth-travel:hover .arrow img {
@@ -112,8 +115,6 @@
 
 .experiences .car:hover .link img {
   transform: scale(1.1);
-  /* background-color: rgb(83, 127, 157); */
-  /* border-radius: 50%; */
 }
 .experiences .car .arrow img {
   visibility: hidden;

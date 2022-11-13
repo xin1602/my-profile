@@ -1,4 +1,4 @@
-// 網頁向下滑動 20px 出現"返回頂部"button
+// 網頁向下滑動 800px 出現"返回頂部"button
 window.onscroll = function () {
   scrollFunction()
 }
